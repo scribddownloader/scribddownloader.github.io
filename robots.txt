@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: ?doc_url=*
+Disallow: /?doc_url=*
