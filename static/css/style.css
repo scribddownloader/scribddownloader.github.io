@@ -1,0 +1,25 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+}
+
+form {
+  max-width:640px;
+  width:100%;
+  margin: auto;
+  text-align: center;
+}
+
+.dl_btn {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
