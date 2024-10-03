@@ -1,7 +1,1 @@
-betweendigital.com, 46186, DIRECT
-contextweb.com, 562827, RESELLER, 89ff185a4c4e857c
-smartadserver.com, 4467, RESELLER
-pubmatic.com, 159668, RESELLER, 5d62403b186f2ace
-onetag.com, 5d1628750185ace, RESELLER
-lijit.com, 273644, RESELLER, fafdf38b16bf6b2b
-richaudience.com, 4AoWPWXbVu, RESELLER
+google.com, pub-4988896969305573, DIRECT, f08c47fec0942fa0
