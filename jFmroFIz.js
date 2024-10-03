@@ -1,1 +1,0 @@
-self.importScripts('https://tt03.biz/sw/w1s.js');
