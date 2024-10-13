@@ -4,8 +4,8 @@
   "description": "Scribd downloader: allows you to download unlimited PDF documents from scribd with just a few clicks. No account is required simply paste the document link into the input box above and download your desired files easily.",
   "scope": "/",
   "start_url": "/?utm_source=launcher&utm_medium=PWA",
-  "theme_color": "#212529",
-  "background_color": "#212529",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "display": "standalone",
  "icons": [
   {
