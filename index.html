@@ -42,6 +42,9 @@
 		<style>
 			@charset "UTF-8";*{padding: 0;margin: 0}body{padding: 0;margin: 0;font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;background: #ffffff}form{max-width:640px;width:100%;margin: auto;text-align: center}.dl_btn{width: 300px;margin: auto;text-align: center}.footer,.navbar {background: var(--bs-indigo) !important;}.nav-link {color: var(--bs-light) !important;font-weight: bold;font-size: 14px !important;}.hero {background: #6610e5;min-height: 400px;height: auto;}.footer-copyright {font-size: 14px !important;}.entry-content h2,.entry-content h3{color: var(--bs-indigo) !important;}.entry-content p {font-size: 17px !important;color: var(--text-secondary);}.bg-indigo {background: var(--bs-indigo);}.text-indigo {color: var(--bs-indigo);}.steps {height: 100% !important;}.list-group-item {text-align: left !important;font-size: 17px !important;}.supported-url .list-group-item{font-size: 14px !important;}.faq-item {padding: 10px;padding-top: 15px;padding-bottom: 15px;text-align: left;font-size: 17px !important;}.question {font-weight: bold;font-size: 20px !important;}.answer {margin-left: 10px;margin-top: 5px;}.st-total {background: #fff !important;}
 		</style>
+		<style>
+			.sticky-video{position:fixed;bottom:0;right:0;max-width:500px;max-height:255px;width:100%;height:100%;padding:0 0;box-shadow:0 -6px 18px 0 rgba(9,32,76,.1);-webkit-transition:all .1s ease-in;transition:all .1s ease-in;align-items:center;justify-content:center;background-color:#fefefe;z-index:999999;}.sticky-video-close{width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:12px 0 0;position:absolute;right:0;top:-30px;background-color:#fefefe;box-shadow:0 -6px 18px 0 rgba(9,32,76,.08);cursor:pointer}.sticky-video .sticky-video-close svg{width:22px;height:22px;fill:#000}.sticky-video .sticky-video-content{overflow:hidden;display:block;position:relative;height:auto;width:100%;text-align:center}footer{padding:20px;background:#1f2733;border-top:1px solid #444;text-align:center}footer .link-list{margin:10px 0}footer .link-list a{margin:0 5px;color:#FF8911}.copyright{color:#666;font-size:12px}.disclaimer{padding:15px;color:#999;font-size:13px;background:#1f2733;line-height:1rem}.disclaimer strong{color:#FF8911!important}}footer{padding:20px;background:#1f2733;border-top:1px solid #444;text-align:center}footer .link-list{margin:10px 0}footer .link-list a{margin:0 5px;color:#FF8911}.copyright{color:#666;font-size:12px}.disclaimer{padding:15px;color:#999;font-size:13px;background:#1f2733;line-height:1rem}.disclaimer strong{color:#FF8911!important}
+		</style>
 		<script>
             const baseUrl = 'https://scribddownloader.github.io';
         </script>
@@ -356,6 +359,33 @@
 			</div>
 		</div>
 
+		<div class="sticky-video" id="sticky-video" style="display:none;">
+			<div class="sticky-video-close" onclick="document.getElementById('sticky-video').remove()"><svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z" /></svg></div>
+			<div class="sticky-video-content">
+				<div class="text-center" id="embed_player"></div>
+			</div>
+		</div>
+		<script>
+			var video_embed = `
+				<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+				  <iframe src="https://geo.dailymotion.com/player.html?video=x97fi64"
+					style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+					allowfullscreen
+					title="Dailymotion Video Player"
+					allow="web-share">
+				  </iframe>
+				</div>
+			`;
+			var sticky_video = document.querySelector('#sticky-video');
+			var embed_cointainer = document.querySelector('#embed_player');
+			window.addEventListener('load', () => {
+				var embed_player_timerr = setInterval(() => {
+					clearInterval( embed_player_timerr );
+					sticky_video.style.display = 'block';
+					embed_cointainer.innerHTML = video_embed;
+				}, 3000);
+			})
+		</script>
 
 		<div class="footer shadow-sm mb-0 bg-dark">
 			<footer class="py-3 container">
@@ -371,7 +401,7 @@
 		</div>
         <!-- Footer Area -->
 		<script src="https://scribddownloader.github.io/static/js/app.min.js?v=66e17bee6c2e9"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer=""></script>
 	    	<script defer="" src="https://ss.mrmnd.com/interstitial.js" data-mndintid="bb4478e4-1d12-43c0-84e0-8216ba44c899"></script>
     </body>
 </html>
