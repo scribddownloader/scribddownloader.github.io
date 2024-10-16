@@ -1,179 +1,21 @@
-google.com, pub-4988896969305573, DIRECT, f08c47fec0942fa0
+#Smartyads Web
+smartyads.com, 19909, DIRECT, fd2bde0ff2e62c5d
+conversantmedia.com, 100264, RESELLER, 03113cd04947736d
+loopme.com, 11426, RESELLER, 6c8d5f95897a5a3b
+adform.com, 2795, RESELLER
+pubmatic.com, 161970, RESELLER, 5d62403b186f2ace
+video.unrulymedia.com, 3563866356, DIRECT
+improvedigital.com, 2345, DIRECT
+richaudience.com, PJgvK4kTic, RESELLER
+motorik.io, 599, DIRECT
+videoheroes.tv, 212654, RESELLER, 064bc410192443d8
+Integralstream.com, 2, RESELLER
 
-#Adrenalead is the exclusive operator of our desktop and mobile push notification ad product
-aleadinfo.com, 3862, DIRECT
-
-  
- #MGID
- mgid.com, 833141, DIRECT, d4c29acad76ce94f
-   
- #SmileWanted
- smilewanted.com, 4463, RESELLER
- pubmatic.com, 158810, RESELLER, 5d62403b186f2ace
- appnexus.com, 10040, RESELLER
- smartadserver.com, 2491, RESELLER,
- rubiconproject.com, 19814, RESELLER, 0bfd66d529a55807
- openx.com, 557083110, RESELLER, 6a698e2ec38604c6
-  
- #Onetag
- onetag.com, 835c44cec934000, DIRECT
-  
- #pubmatic
- pubmatic.com, 159374, RESELLER, 5d62403b186f2ace
-  
- #azerion
- appnexus.com,2579,RESELLER
- improvedigital.com,1220,RESELLER
- sublime.xyz,3510,RESELLER
- smartadserver.com,1827,RESELLER
- smartadserver.com,3653,RESELLER,060d053dcf45cbf3
- smartadserver.com,3653-OB,RESELLER,060d053dcf45cbf3
- quantum-advertising.com,6170,RESELLER
- improvedigital.com, 2215, DIRECT
- 
- #gingerad
- #partenaires autorises
- gingerad.com, 1007, RESELLER
- appnexus.com, 12070, RESELLER, f5ab79cb980f11d1
- smartadserver.com, 4183, RESELLER
- pubmatic.com, 162299, RESELLER, 5d62403b186f2ace
- quantum-advertising.com, 6232, RESELLER
- onetag.com, 7c3f893b7164340, RESELLER
- adyoulike.com, 63754632e0d24a49dde34df920b86c51, RESELLER
- lijit.com, 437646, RESELLER, fafdf38b16bf6b2b
- lijit.com, 437646-eb, RESELLER, fafdf38b16bf6b2b
- sharethrough.com, iRv1a3eV, RESELLER, d53b998a7bd4ecd2
- rubiconproject.com, 25890, RESELLER, 0bfd66d529a55807
- 
- #equativ
- #Equativ SSPs (ex Smart)
- smartadserver.com, 4484, RESELLER, 060d053dcf45cbf3
- pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
- pubmatic.com, 154037, RESELLER, 5d62403b186f2ace
- rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
- openx.com, 537149888, RESELLER, 6a698e2ec38604c6
- appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
- loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
- xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
- video.unrulymedia.com, 2564526802, RESELLER
- smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
- pubnative.net, 1006576, RESELLER, d641df8625486a7b
- verve.com, 15503, RESELLER, 0c8f5958fc2d6270
- adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
- axonix.com, 57264, RESELLER
- admanmedia.com, 43, RESELLER
- sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
- contextweb.com, 560288, RESELLER, 89ff185a4c4e857c
- 
- #Equativ SSPs resellers (ex Smart)
- adcolony.com, 496220845654deec, RESELLER, 1ad675c9de6b5176 #Smaato
- appads.in, 107606, RESELLER #Smaato
- se7en.es, 212459, RESELLER, 064bc410192443d8 #Smaato
- appnexus.com, 14077, RESELLER #Axonix (emodonic)
- rubiconproject.com, 17328, RESELLER, 0bfd66d529a55807 #Verve (Pubnative)
- 
- 
- #outbrain
- outbrain.com, 005e8b586f4258831a0bdd4ca00ecf9823, DIRECT
- appnexus.com, 7597, RESELLER, f5ab79cb980f11d1
- rubiconproject.com, 19668, RESELLER, 0bfd66d529a55807
- emxdgt.com, 2014, RESELLER, 1e1d41537f7cad7f
- xandr.com, 10736, RESELLER #instream video by outbrain
- contextweb.com, 562709, RESELLER, 89ff185a4c4e857c
- sharethrough.com, c21oBkqP, RESELLER, d53b998a7bd4ecd2
- Media.net, 8CU33YS38, RESELLER # all formats
- Media.net, 8CULQ3LW5, RESELLER #outbrain_video
- 
- #adyoulike
- adyoulike.com, 45d0e84dacdc2854b813dda410bb18d4, DIRECT 
- appnexus.com, 7664, RESELLER 
- pubmatic.com, 160925, RESELLER, 5d62403b186f2ace 
- rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807 
- smartadserver.com, 4144, RESELLER 
- onetag.com, 7a07370227fc000, RESELLER 
- nativo.com, 5848, RESELLER, 59521ca7cc5e9fee 
- 33across.com, 0015a00003HljHyAAJ, RESELLER 
- risecodes.com, 64c7a4acd6298f0001a7d867, RESELLER 
- spotim.market, sp_AYL2022, RESELLER, 077e5f709d15bdbb 
- Xapads.com, 196344, RESELLER 
- richaudience.com, JAHJ4YZq4O, RESELLER
- 
- #xandr
- appnexus.com,14789,RESELLER
- 
- #criteo
- themediagrid.com, YZ2I83, DIRECT, 35d5010d7789b49d
-
-themediagrid.com, YZ2I83, DIRECT, 35d5010d7789b49d
-appnexus.com,14789,RESELLER
-33across.com, 0015a00003HljHyAAJ, RESELLER
-Xapads.com, 196344, RESELLER
-adyoulike.com, 45d0e84dacdc2854b813dda410bb18d4, DIRECT
-appnexus.com, 7664, RESELLER
-nativo.com, 5848, RESELLER, 59521ca7cc5e9fee
-onetag.com, 7a07370227fc000, RESELLER
-pubmatic.com, 160925, RESELLER, 5d62403b186f2ace
-richaudience.com, JAHJ4YZq4O, RESELLER
-risecodes.com, 64c7a4acd6298f0001a7d867, RESELLER
-rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807
-smartadserver.com, 4144, RESELLER
-spotim.market, sp_AYL2022, RESELLER, 077e5f709d15bdbb
-Media.net, 8CU33YS38, RESELLER # all formats
-Media.net, 8CULQ3LW5, RESELLER #outbrain_video
-appnexus.com, 7597, RESELLER, f5ab79cb980f11d1
-contextweb.com, 562709, RESELLER, 89ff185a4c4e857c
-emxdgt.com, 2014, RESELLER, 1e1d41537f7cad7f
-outbrain.com, 005e8b586f4258831a0bdd4ca00ecf9823, DIRECT
-rubiconproject.com, 19668, RESELLER, 0bfd66d529a55807
-sharethrough.com, c21oBkqP, RESELLER, d53b998a7bd4ecd2
-xandr.com, 10736, RESELLER #instream video by outbrain
-adcolony.com, 496220845654deec, RESELLER, 1ad675c9de6b5176 #Smaato
-admanmedia.com, 43, RESELLER
-adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
-appads.in, 107606, RESELLER #Smaato
-appnexus.com, 14077, RESELLER #Axonix (emodonic)
-appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
-axonix.com, 57264, RESELLER
-contextweb.com, 560288, RESELLER, 89ff185a4c4e857c
-loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
-openx.com, 537149888, RESELLER, 6a698e2ec38604c6
-pubmatic.com, 154037, RESELLER, 5d62403b186f2ace
-pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
-pubnative.net, 1006576, RESELLER, d641df8625486a7b
-rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 17328, RESELLER, 0bfd66d529a55807 #Verve (Pubnative)
-se7en.es, 212459, RESELLER, 064bc410192443d8 #Smaato
-sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
-smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
-smartadserver.com, 4484, RESELLER, 060d053dcf45cbf3
-verve.com, 15503, RESELLER, 0c8f5958fc2d6270
-video.unrulymedia.com, 2564526802, RESELLER
-xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
-adyoulike.com, 63754632e0d24a49dde34df920b86c51, RESELLER
-appnexus.com, 12070, RESELLER, f5ab79cb980f11d1
-gingerad.com, 1007, RESELLER
-lijit.com, 437646, RESELLER, fafdf38b16bf6b2b
-lijit.com, 437646-eb, RESELLER, fafdf38b16bf6b2b
-onetag.com, 7c3f893b7164340, RESELLER
-pubmatic.com, 162299, RESELLER, 5d62403b186f2ace
-quantum-advertising.com, 6232, RESELLER
-rubiconproject.com, 25890, RESELLER, 0bfd66d529a55807
-sharethrough.com, iRv1a3eV, RESELLER, d53b998a7bd4ecd2
-smartadserver.com, 4183, RESELLER
-appnexus.com,2579,RESELLER
-improvedigital.com, 2215, DIRECT
-improvedigital.com,1220,RESELLER
-quantum-advertising.com,6170,RESELLER
-smartadserver.com,1827,RESELLER
-smartadserver.com,3653,RESELLER,060d053dcf45cbf3
-smartadserver.com,3653-OB,RESELLER,060d053dcf45cbf3
-sublime.xyz,3510,RESELLER
-pubmatic.com, 159374, RESELLER, 5d62403b186f2ace
-onetag.com, 835c44cec934000, DIRECT
-appnexus.com, 10040, RESELLER
-openx.com, 557083110, RESELLER, 6a698e2ec38604c6
-pubmatic.com, 158810, RESELLER, 5d62403b186f2ace
-rubiconproject.com, 19814, RESELLER, 0bfd66d529a55807
-smartadserver.com, 2491, RESELLER,
-smilewanted.com, 4463, RESELLER
-mgid.com, 833141, DIRECT, d4c29acad76ce94f
+#Smartyads Video
+adform.com, 2742, RESELLER
+improvedigital.com, 2345, DIRECT
+pubmatic.com, 161970, RESELLER, 5d62403b186f2ace
+video.unrulymedia.com, 3563866356, DIRECT
+loopme.com, 11426, RESELLER, 6c8d5f95897a5a3b
+richaudience.com, PJgvK4kTic, RESELLER
+Integralstream.com, 2, RESELLER
