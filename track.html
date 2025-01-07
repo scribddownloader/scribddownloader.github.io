@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Please Wait...</title>
+		<meta name="robots" content="noindex, follow" />
+		<meta http-equiv="refresh" content="5; URL=https://scribddownloader.github.io/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+		<style>
+			*{padding: 0;margin: 0;box-sizing: border-box}body{background: #FFF7D1;font-family: arial;padding: 10px}.container{max-width: 640px;width: 100% !important;min-height: 300px;margin: auto;padding: 50px;background: #FFF;box-shadow: 0px 5px 10px .5px #11111150;border-radius: 10px}.main{text-align: center}.main h1{display: block;font-size: 32px;margin-bottom: 15px}.main small,.main a{display: block}.main small{font-size: 15px;padding: 0px 30px}#main-link{padding: 15px 20px;background: #FF8400;max-width: 300px;width: 100%;margin: 30px auto;color: #fff;text-decoration: none;font-weight: bold;border-radius: 5px;box-shadow: 0px 5px 15px 5px #FF840090;font-size: 18px;transition: all 0.2s}#main-link:hover{box-shadow: 0px 2px 2px .5px #FF840090}
+		</style>
+	</head>
+	<body>
+		<div id="redirectNotice"></div>
+		<script>
+			/*
+			* -------------------------------
+			* | Ad Redirect Manager         |
+			* -------------------------------
+			* 
+			* @version: 2
+			* @author: A.I Raju
+			* @license: MIT
+			* @copyright: A.I Raju 2023
+			*
+			*/
+			var Cookie={get:function(e){let t=e+"=",n=decodeURIComponent(document.cookie).split(";");for(let e=0;e<n.length;e++){let r=n[e];for(;" "==r.charAt(0);)r=r.substring(1);if(0==r.indexOf(t))return r.substring(t.length,r.length)}return""},set:function(e,t,n=7,r="/",o=!1){const i=new Date;i.setTime(i.getTime()+24*n*60*60*1e3);let c="expires="+i.toUTCString();!1===o&&(o=new URL(document.location).host.replace("www.","")),document.cookie=e+"="+t+";"+c+";path=/;domain="+o+";Secure"},has:function(e){return!!this.get(e)}},Url={get:function(e){var t,n,r=window.location.search.substring(1).split("&");for(n=0;n<r.length;n++)if((t=r[n].split("="))[0]===e)return void 0!==t[1]&&decodeURIComponent(t[1]);return!1},getCleanUrl:function(e=!1){var t=new URL(!1===e?window.location.href:e);return t.href.replace(t.hash,"").replace(t.search,"")},currentUrl:function(){return window.location.href},parseUrl:function(e=!1){return e?new URL(e):window.location},encode:function(e){return""!==e&&encodeURIComponent(e)},decode:function(e){return""!==e&&decodeURIComponent(e)},go:function(e){if(""===e)return!1;window.location=e},isValidUrl:function(e){return null!==e.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g)},getValidUrl:function(e){("//"===e.substring(0,2)&&(e="http:"+e),"/"===e[0]&&(e="http:/"+e),"http://"===e.substring(0,7)||"https://"===e.substring(0,8))||(e="http://"+this.parseUrl(this.currentUrl()).hostname+"/"+e);return e}},arm={ARM:function(){var e=Array();return e.source=0==Url.get("source")?"default_source":Url.get("source"),e.medium=0==Url.get("medium")?"default_medium":Url.get("medium"),e.clickId=0==Url.get("clickId")?"default_clickId":Url.get("clickId"),e.zoneId=0==Url.get("zoneId")?"default_zoneId":Url.get("zoneId"),e.postback=0==Url.get("postback")?"no":Url.get("postback"),e.postback="yes"==e.postback?"yes":"no",e.ad=0==Url.get("ad")?"default_ad":Url.get("ad"),e},refine_url:function(e){var t=this.ARM();for(const[n,r]of Object.entries({clickId:"{{clickId}}",zoneId:"{{zoneId}}",source:"{{source}}",medium:"{{medium}}",postback:"{{postback}}"}))e=e.replace(r,t[n]);return e},Run:function(e,t=""){var n=this.ARM();console.log(n),e.hasOwnProperty(n.ad)||(n.ad="default_ad");var r=this.refine_url(e[n.ad]);"undefined"!==window[t]&&"function"==typeof window[t]?window[t](r):Url.go(r)}};
+			
+			
+			function redirectNotice( url ){
+				document.querySelector('#redirectNotice').innerHTML = `
+					<div class="container">
+						<div class="main">
+							<h1>Please Wait...</h1>
+							<small>We will automatically redirect you in few seconds or click the button to <b>Continue</b>...</small>
+							<a href="${url}" id="main-link">Continue</a> 
+						</div>
+					</div>
+				`;
+				
+				Url.go( url );
+			}
+			
+			/*
+			* Example ARM Usages
+			*/
+			const ad_urls = Array();
+			ad_urls['default_ad'] = 'https://scribddownloader.github.io/';
+			ad_urls['popads'] = 'https://fregames.online/';
+
+			/* Run arm */
+			arm.Run( ad_urls, 'redirectNotice' );
+		</script>
+	</body>
+	</html>
