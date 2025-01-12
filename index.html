@@ -1,21 +1,6 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		https://scribddownloader.github.io/static/js/adEngine.min.js
-		<script>
-		    adEngine.adRequest.getAds('/static/js/adEngineAds.json');
-		    adEngine.Config.set({
-		        refreshTime: 30000,
-		        forceDefaultRefreshTime: false,
-		        popBannerEnable: true,
-		        popBannerDelay: 1000,
-		        popBannerMaxDisplay: 0,
-		        popBannerDisplayAfterClose: 30000
-		    });
-		    window.addEventListener('DOMContentLoaded', ()=>{
-		        adEngine.start();
-		    })
-		</script>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Scribd Downloader Free PDF Downloader Online</title>
@@ -58,6 +43,21 @@
 		<script>
             const baseUrl = 'https://scribddownloader.github.io';
         </script>
+		<script src="https://scribddownloader.github.io/static/js/adEngine.min.js"></script>
+		<script>
+		    adEngine.adRequest.getAds('/static/js/adEngineAds.json');
+		    adEngine.Config.set({
+		        refreshTime: 30000,
+		        forceDefaultRefreshTime: false,
+		        popBannerEnable: true,
+		        popBannerDelay: 1000,
+		        popBannerMaxDisplay: 0,
+		        popBannerDisplayAfterClose: 30000
+		    });
+		    window.addEventListener('DOMContentLoaded', ()=>{
+		        adEngine.start();
+		    })
+		</script>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DEJH5MQ0P"></script>
 		<script>
